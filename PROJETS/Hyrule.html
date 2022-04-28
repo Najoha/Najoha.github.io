@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/detail_projets.css">
+    <link rel="stylesheet" href="../CSS/slideimg.css">
+    <script type="text/javascript" src="../JS/slideimg.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="main">
+        <div class="column">
+            <p class="title">Clicker Game</p>        
+            <div class="slidercontainer" id="castle"> 
+                <div class="showSlide fade">  
+                <img src="../IMAGES/I.png" class="tosmall" />  
+                </div>
+                <div class="showSlide fade" >  
+                <img src="../IMAGES/J.png" class="tosmall" />  
+                </div>
+                <div class="showSlide fade">  
+                <img src="../IMAGES/K.png" />  
+                </div> 
+                <div class="showSlide fade">  
+                <img src="../IMAGES/L.png" />  
+                </div>
+                <div class="showSlide fade">  
+                <img src="../IMAGES/M.png" class="tosmall" />  
+                </div> 
+                <div class="showSlide fade">  
+                <img src="../IMAGES/N.png" class="tosmall"/>  
+                </div>
+                <!-- Navigation arrows --> 
+                <a class="left" onclick="nextSlide(-1)">❮</a>  
+                <a class="right" onclick="nextSlide(1)">❯</a>      
+            </div>  
+        </div>
+        <div class="content">
+            <a href="../projets.html"><img src="../IMAGES/return.png" alt="return button"></a>
+            <p class="lang"><strong>Language utilisé:</strong> BASH</p>
+            <p class="description"><strong>Description:</strong> 
+                <br> - Jeux basé sur les jeux Zelda. <br>
+                    - Choix du personnage (la vie ou l'attaque change en fonction de celui choisis). <br>
+                    - Jeux en 10 tours, du tour 1 à 9 on combats des ennemis classiques, au 10 c'est un boss. <br>
+                    - Choix entre attaque et soins possible. <br>
+                    - Système de gains d'experience et de niveaux. <br>
+                    - Parsing des informations données initialement sur les joueurs et les ennemis présents dans le jeux. <br>
+                    - Mise en pratique des connaissances apprise durant la semaine d'introduction au bash.
+            </p>
+            <p class="groupe"><strong>Groupe de travail:</strong> 3 Personnes</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        displaySlides()
+         fixNav()
+    </script>
+</body>
+</html>

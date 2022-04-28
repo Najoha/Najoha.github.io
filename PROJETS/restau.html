@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/detail_projets.css">
+    <link rel="stylesheet" href="../CSS/slideimg.css">
+    <script type="text/javascript" src="../JS/slideimg.js"></script>
+    <title>Portfolio</title>
+</head>
+<body> 
+    <div class="main">
+        <div class="column">
+            <p class="title">Restaurant Advisor</p>        
+            <div class="slidercontainer" id="aled"> 
+                <div class="showSlide fade">  
+                <img src="../IMAGES/E.png" />  
+                </div>
+                <div class="showSlide fade">  
+                <img src="../IMAGES/F.png" />  
+                </div>
+                <div class="showSlide fade">  
+                <img src="../IMAGES/G.png" />  
+                </div> 
+                
+                <!-- Navigation arrows --> 
+                <a class="left" onclick="nextSlide(-1)">❮</a>  
+                <a class="right" onclick="nextSlide(1)">❯</a>      
+            </div>  
+        </div>
+        <div class="content">
+            <a href="../projets.html"><img src="../IMAGES/return.png" alt="return button"></a>
+            <p class="lang"><strong>Languages utilisés:</strong> PHP || Kotlin </p>
+            <p class="description"><strong>Description:</strong> <br>
+                    - API faite sur Laravel / utilisation des controllers/ models/ routes, <br>
+                    - Routes testées sur Postman,<br>
+                    - Application mobile faite sur Android studio. <br>
+                    - Découverte d'Android Studio / Kotlin/ Création d'API. <br>
+                    - En raison du manque de temps et du fait que tout soit nouveau, 
+                    très peu de choses étaient fonctionnelles ainsi que trés peut d'images sont disponibles. <br>
+                    - Toute la partie sur Laravel était fonctionnelle cependant c'est la partie sur Android Studio qui à posé problème.
+            </p>
+            <p class="groupe"><strong>Groupe de travail:</strong> 2 Personnes</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        displaySlides()
+         fixNav()
+    </script>
+</body>
+</html>

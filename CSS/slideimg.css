@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    font-family: "HM Sans Regular","HMSansHebrew-Regular","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    background-color: #ffddcc;
+}
+
+.showSlide {  
+    display: none  
+}  
+.showSlide img {  
+    max-width: 100%;
+    scale: 0.8;
+	height: auto;    
+    margin-left: auto;
+    margin-right: auto;
+}  
+.slidercontainer {      
+    position: relative;  
+    margin: 5%;  
+    margin-top: 5%;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    float: right;
+
+}  
+
+.slidercontainermovie {  
+    max-width: 25%;  
+    min-height: 425px;
+    position: relative;  
+    float: left; 
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-style: double;
+}  
+
+.slidercontainermovie p{
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    margin-top: -50px;
+    margin-top: 2%;
+}
+
+.left, .right {  
+    cursor: pointer;  
+    position: absolute;  
+    top: 50%;  
+    width: auto;  
+    padding: 16px;  
+    margin-top: -22px;  
+    color: black;  
+    font-weight: bold;  
+    font-size: 18px;  
+    transition: 0.6s ease;  
+    border-radius: 0 3px 3px 0;  
+}  
+.right {  
+    right: 0;  
+    border-radius: 3px 0 0 3px;  
+}  
+.left {  
+    left: 0;  
+    border-radius: 3px 0 0 3px;  
+}  
+.left:hover, .right:hover {  
+    background-color: rgba(115, 115, 115, 0.8);  
+}  
+s
+.content {  
+    color: #eff5d4;  
+    font-size: 30px;  
+    padding: 8px 12px;  
+    position: absolute;  
+    top: 10px;  
+    width: 100%;  
+    text-align: center;  
+}  
+.active {  
+    background-color: #717171;  
+}  
+/* Fading animation */  
+.fade {  
+    -webkit-animation-name: fade;  
+    -webkit-animation-duration: 1.5s;  
+    animation-name: fade;  
+    animation-duration: 1.5s;  
+}  
+@-webkit-keyframes fade {  
+    from {  
+        opacity: .4  
+    }  
+    to {  
+        opacity: 1  
+    }  
+}  
+
+@keyframes fade {  
+    from {  
+        opacity: .4  
+    }  
+    to {  
+        opacity: 1  
+    }  
+}  
+
+#aled img{
+    margin-left: 30%;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/detail_projets.css">
+    <link rel="stylesheet" href="../CSS/slideimg.css">
+    <script type="text/javascript" src="../JS/slideimg.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="main">
+        <div class="column">
+            <p class="title">Défi Graven</p>        
+            <div class="slidercontainer" id="castle"> 
+                <div class="showSlide fade">  
+                <img src="../IMAGES/1.png" />  
+                </div>
+                <div class="showSlide fade" >  
+                <img src="../IMAGES/2.png" />  
+                </div>
+                <div class="showSlide fade">  
+                <img src="../IMAGES/3.png" />  
+                </div> 
+                <div class="showSlide fade">  
+                <img src="../IMAGES/4.png" />  
+                </div>
+                <div class="showSlide fade">  
+                <img src="../IMAGES/5.png" />  
+                </div> 
+                <div class="showSlide fade">  
+                <img src="../IMAGES/6.png"/>  
+                </div>
+                <div class="showSlide fade">  
+                <img src="../IMAGES/7.png" />  
+                </div>
+                <div class="showSlide fade" >  
+                <img src="../IMAGES/8.png" />  
+                </div>
+                <div class="showSlide fade">  
+                <img src="../IMAGES/9.png" />  
+                </div> 
+                <div class="showSlide fade">  
+                <img src="../IMAGES/10.png" />  
+                </div>
+                <div class="showSlide fade">  
+                <img src="../IMAGES/11.png" />  
+                </div> 
+                <div class="showSlide fade">  
+                <img src="../IMAGES/12.png"/>  
+                </div>
+                <!-- Navigation arrows --> 
+                <a class="left" onclick="nextSlide(-1)">❮</a>  
+                <a class="right" onclick="nextSlide(1)">❯</a>      
+            </div>  
+        </div>
+        <div class="content">
+            <a href="../projets.html"><img src="../IMAGES/return.png" alt="return button"></a>
+            <p class="lang"><strong>Language utilisé:</strong> C#</p>
+            <p class="description"><strong>Description:</strong> 
+                <br> - Jeux basé sur le principe des rogue like. <br>
+                    - Choix du personnage (Ici les membre du groupe). <br>
+                    - Les ennemis sont certains languages (pyhton -> serpents bleu et jaune, php-> un elephant, rust->un crabe et VS Code-> le boss). <br>
+                    - Un bouton à été prévu pour déclencher les attaques du joueur tandis que les crabes et les serpents attaquent le joueur 
+                    et lui courent aprés lorsque celui ci s'approche trop d'eux. <br>
+                    - Des coffres permettent de gagner de l'argent ainsi que de perdre ou gagner de la vie en fonction de ce qui se cache dans le coffre <br>
+                    - Tous les personnages /ennemis et décors ont étés fait par notre groupe. <br>
+                    - Des portails permettent de se déplacer entre plusieurs salles. <br>
+                    - Une boutique à été crées afin d'acheter des items pour améliorer les compétences du joueur 
+                    (Sur les images ont peut voir que acheter des pinguins (linux) ajoute de la vie).  
+            </p>
+            <p class="groupe"><strong>Groupe de travail:</strong> 4 Personnes</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        displaySlides()
+         fixNav()
+    </script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+body{
+    background-image: url("../IMAGES/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-color: #faf5f1;
+    margin:0;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+h1{
+    color: #faf5f1;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.projets{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.projet{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.projets #ok{
+    border-radius: 25in;
+    width: 10%;
+    background-color: black;
+    border-style: solid;
+    margin: 10px;
+}
+
+#left #ok{
+    float: left;
+} 
+
+#right #ok{
+    float: right;
+}
+
+#right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#left {
+    display: flex;
+    flex-direction: reverse;
+}
+
+.description{
+    border-style:dashed;
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+    border-color: black;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 1vw;
+}
+
+#left:hover{
+    background-color: rgba(255, 97, 97, 0.7);
+}
+
+#right:hover{
+    background-color: rgba(130, 248, 252, 0.7);
+}
+
+.MAJ{
+    font-size: small;
+    margin-top: 50px;
+}
+
+#trait_dessus
+{
+    border-top: 1px dotted #000;
+    width : 100%;
+} 
+
+#hand{
+    width: 50px; 
+    padding: 15px;
+}
+
+.o{
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#hand:hover{
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+
+#hand:active{
+    transform: scale(1);
+    transition-duration: 300ms;
+}
+
+.slidercontainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.moi{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+#one, #three{
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+}
+/*
+#two {
+    
+}   
+*/
+
+#four img{
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+.profil{
+    padding: 10px;
+    margin: 15px;
+}
+
+.infos-right{
+    width: 25%;
+    float: right;
+    height: fit-content;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: justify;
+}
+
+.infos-left{
+    width: 25%;
+    height: fit-content;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: end;
+}

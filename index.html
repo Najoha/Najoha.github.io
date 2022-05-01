@@ -4,69 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/projets.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <script type="text/javascript" src="JS/slideimg.js"></script>
+    <script type="text/javascript" src="JS/changeHand.js"></script>
+    <link rel="stylesheet" href="CSS/slideimg.css">
+    <title>CA COMMENCE A ME PETER LES COUILLES</title>
 </head>
 <body>
-    <div>
-        <p class="welcome">Bienvenue sur mon Portfolio</p>
-        <p class="accueil">Ici vous pourrez voir mes projets réalisés,
-            avec le temps j'espère voir des améliorations au niveau du rendu et du code.
-            <br><br>
-            Pour me contacter voici mon mail: mach_j@alternance.net
-            <br>
-            Vous pouvez également rechercher mon profil sur linkedin : MACH Johanna
-        </p>
-    </div>
-    <div class="main"> 
-        <p class="title">MES PROJETS</p>
-        <div class="projets">
-            <a href="PROJETS/mario.html" class="projet" id="mario">
-                <p class="name">Mario</p>
-                <img src="IMAGES/B.png">
-                <p class="description"> Projet personnel visant à découvrir en suivant un tutoriel ce 
-                    qu'était la librairie Kaboom.js et ce que l'ont pouvais faire avec.
-                </p>
-            </a>
-            <a href="PROJETS/graven.html" class="projet" id="graven">
-                <p class="name">Défi Graven</p>
-                <img src="IMAGES/11.png">
-                <p class="description">
-                    Réalisé sur Godot, au cours de notre deuxième Code Camp, ce projet à été réalisé 
-                    en 1 semaine, il n'est donc pas tout à fait abouti mais nous en somme fiers.
+    <h1>Bienvenue sur mon Portfolio</h1>
+    <div class="moi">
+        <div class="infos-left">
 
-                    ELU COUP DE COEUR POUR CE DEFI
+            <div class="profil" id="one">
+                <h4>Profil :</h4>
+                <p>
+                    <strong>Nom :</strong> Mach<br>
+                    <strong>Prénom :</strong> Johanna<br>
+                    <strong>Age :</strong> 18 Ans<br>
+                    <strong>Ecole :</strong> E.T.N.A<br>
+                    <strong>Formation :</strong> Année de Préparation Accélérée à l'ETNA - Chargée de projets informatiques
+              </p>
+            </div>
+            <div class="profil" id="two">
+                <h4>Compétences :</h4>
+                <p>
+                    HTML || CSS || JS || PHP || MYSLQ || Kotlin 
+                    Bash
                 </p>
-            </a>
-            <a href="PROJETS/Hyrule.html" class="projet" id="hyrule">
-                <p class="name">Hyrule Castle</p>
-                <img src="IMAGES/I.png">
-                <p class="description">Premier projet en groupe réalisé au cours de notre formation, il fût trés intéressant et cool à réaliser.</p>
-            </a>
-            <a href="PROJETS/Clicker.html" class="projet" id="clicker">
-                <p class="name">Clicker Game</p>
-                <img src="IMAGES/V.png">
-                <p class="description">Sur le thème de Genshin Impact ce clicker game nous à permis de découvrir javascript tout en s'amusant.</p>
-            </a>
-            <a href="PROJETS/restau.html" class="projet" id="restau">
-                <p class="name">Restaurant Advisor</p>
-                <img src="IMAGES/H.png">
-                <p class="description">Premier projet portant sur le développement mobile, il nous à donné du fil à retordre surtout au niveau de la partie sur Android Studio. 
-                Encore pas mal de choses à apprendre de ce coté là mais pour une première fois le résultat nous à en partie satisfaites.
-                </p>                              
-            </a>
-            <a href="PROJETS/trombi.html" class="projet" id="trombi">
-                <p class="name">Trombinoscope</p>
-                <img src="IMAGES/S.png">
-                <p class="description">Ce projet à été le premier que nous avons réalisé avec membres et 
-                    l'attribution des tâches n'a pas été une chose facile.
-                    Nous somme parvenu à un résultat qui aurais pu être nettement mieux que ça si nous savions déjà tous quoi faire
-                    ce fut une chose interessante à savoir pour les projets qui ont suivis. 
-                </p>                              
-            </a>            
+            </div>
+        </div>
+        <div class="slidercontainer"> 
+            <div class="showSlide fade">  
+                <img src="IMAGES/MOI_1.jpg" />  
+            </div>
+            <!-- <div class="showSlide fade">  
+                <img src="IMAGES/MOI_3.jpg" />  
+            </div>  -->
+            <div class="showSlide fade">  
+                <img src="IMAGES/MOI_4.jpg" />  
+            </div>
+            <div class="showSlide fade">  
+                <img src="IMAGES/MOI_5.jpg" />  
+            </div> 
+            <!-- Navigation arrows --> 
+            <a class="left" onclick="nextSlide(-1)">❮</a> 
+            <a class="right" onclick="nextSlide(1)">❯</a>      
+        </div>  
+        <div class="infos-right">
+            <div class="profil" id="three">
+                <h4>à propos de moi :</h4>
+                <p>
+                    Je suis une personne plutôt souriante et de bonne humeur.
+                    également trés curieuse, c'est ce trait de caractère qui m'a mené
+                    à faire du developpement web, je voulais à tout prix voir ce qu'il
+                    se cachais derrière les applications, jeux, sites, etc.
+                    <br>
+                    Sortons un peu du cadre professionnel : <br>
+                    J'aime occuper mon temps libre en montant à cheval, en m'amusant à choisir 
+                    une nouvelle bétise à faire avec mes cheveux pour changer de tête, en
+                    jouant à des jeux-vidéos ou même en sortant avec mes amis le week-end.
+                    J'aime également écouter de la musique d'un peu tous les styles.
+                </p>
+            </div>
+            <div class="profil" id="four">
+                <h4>Contact / réseaux sociaux :</h4>
+                <a target="_blank" href="https://www.linkedin.com/in/johannamach/">
+                    <img src="IMAGES/linkedin.png" alt="linkedin">
+                </a>
+                <a target="_blank" href="mailto: mach_j@etna_alternance.net">
+                    <img src="IMAGES/gmail.png" alt="gmail">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/johanna.mch/">
+                    <img src="IMAGES/insta.png" alt="insta">
+                </a>
+            </div>
         </div>
     </div>
-    <p class="MAJ"> Dernière mise à jour le 28/04/2022</p>
-
+    <div class="projets">
+        <div class="trait_dessus"><hr></div>
+        <div class="trait_dessus"><hr></div>
+        <div class="projet" id="left">        
+            <img src="IMAGES/B.png" alt="MARIO" id="ok">
+            <p class="description">
+                Projet personnel visant à découvrir en suivant un tutoriel ce 
+                    qu'était la librairie Kaboom.js et ce que l'ont pouvais faire avec.
+            </p>
+            <div class="o">
+                <a href="PROJETS/mario.html" >
+                    <img src="IMAGES/check-left.png" id="hand" > 
+                </a>
+            </div>  
+        </div>
+        <div class="projet" id="right">
+            <div class="o">
+                <a href="PROJETS/graven.html">
+                    <img src="IMAGES/check-left.png" id="hand"> 
+                </a>
+            </div>
+            <p class="description">
+                Réalisé sur Godot, au cours de notre deuxième Code Camp, ce projet à été réalisé 
+                en 1 semaine, il n'est donc pas tout à fait abouti mais nous en somme fiers.
+            </p>
+            <img src="IMAGES/13.png" alt="Graven" id="ok">            
+        </div>
+        <div class="projet" id="left">
+            <img src="IMAGES/U.png" alt="Hyrule" id="ok">
+            <p class="description">
+                Premier projet en groupe réalisé au cours de notre formation, il fût trés intéressant et cool à réaliser.
+            </p>
+            <div class="o">
+                <a href="PROJETS/Hyrule.html">
+                    <img src="IMAGES/check-left.png" id="hand"> 
+                </a>
+            </div> 
+        </div>
+        <div class="projet" id="right">
+            <div class="o">
+                <a href="PROJETS/Clicker.html">
+                    <img src="IMAGES/check-left.png" id="hand"> 
+                </a>
+            </div>
+            <p class="description">
+                Sur le thème de Genshin Impact ce clicker game nous à permis de découvrir javascript tout en s'amusant.
+            </p>
+            <img src="IMAGES/V.png" alt="Clicker" id="ok">
+        </div>
+        <div class="projet" id="left">
+            <img src="IMAGES/H.png" alt="Restau" id="ok">
+            <p class="description">
+                Premier projet portant sur le développement mobile, il nous à donné du fil à retordre surtout au niveau de la partie sur Android Studio. 
+                Encore pas mal de choses à apprendre de ce coté là mais pour une première fois le résultat nous à en partie satisfaites.
+            </p>
+            <div class="o">
+                <a href="PROJETS/restau.html">
+                    <img src="IMAGES/check-left.png" id="hand"> 
+                </a>
+            </div> 
+        </div>
+        <div class="projet" id="right">
+            <div class="o">
+                <a href="PROJETS/trombi.html">
+                    <img src="IMAGES/check-left.png" id="hand"> 
+                </a>
+            </div> 
+            <p class="description">
+                Ce projet à été le premier que nous avons réalisé avec 4 membres et 
+                    l'attribution des tâches n'a pas été une chose facile. De ce fait,
+                    ce 1er codecamp fut trés instructif pour nous
+            </p>
+            <img src="IMAGES/S.png" alt="Trombi" id="ok">
+        </div>
+    </div> 
+    <div class="trait_dessus"><hr></div> 
+    <p class="MAJ"> Dernière mise à jour le 01/05/2022</p>
+    <script type="text/javascript">
+        displaySlides()
+    </script>
 </body>
 </html>

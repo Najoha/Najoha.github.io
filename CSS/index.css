@@ -122,18 +122,10 @@ h1{
     flex-direction: row;
 }
 
-
-
-
 #one, #three{
     border-bottom-style: dashed;
     border-bottom-width: 2px;
 }
-/*
-#two {
-    
-}   
-*/
 
 #four img{
     width: 100px;

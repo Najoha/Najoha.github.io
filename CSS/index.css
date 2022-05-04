@@ -71,10 +71,13 @@ h1{
 
 #left:hover{
     background-color: rgba(255, 97, 97, 0.7);
+    transition-duration: 800ms;
 }
 
 #right:hover{
     background-color: rgba(130, 248, 252, 0.7);
+    transition-duration: 800ms;
+
 }
 
 .MAJ{

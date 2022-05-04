@@ -28,7 +28,7 @@ body{
     float: right;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -50px;
+    margin-top: -180px;
 
 }
 
@@ -84,4 +84,21 @@ a{
 .description{
     width: 65%;
     text-align: center;
+    overflow: auto;
+    height: 250px;
 }
+
+.description::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+
+.description::-webkit-scrollbar-track {
+    background: orange; /* color of the tracking area */
+}
+
+.description::-webkit-scrollbar-thumb {
+    background-color: blue; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid orange; /* creates padding around scroll thumb */
+}
+  
